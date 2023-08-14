@@ -13,3 +13,14 @@
         Answer = 6
 */
 #include <stdio.h>
+int()main{
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+num3 = int(input("Enter the third number: "))
+
+# บวกค่าทั้งสามจำนวน
+sum_result = num1 + num2 + num3
+
+# แสดงผลรวม
+print("Answer =", sum_result)
+}
