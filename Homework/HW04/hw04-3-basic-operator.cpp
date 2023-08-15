@@ -19,4 +19,5 @@ int a = 2;
 int b = 3;
 int c = 1;
 printf("a + b + c = %d\n" , a + b + c);
+return 0;
 }
