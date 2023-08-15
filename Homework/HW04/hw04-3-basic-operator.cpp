@@ -15,7 +15,19 @@
 #include <stdio.h>
 
 int main() {
-    int result = 2 + 3 + 1;
-    printf("Answer = %d\n", result);
+    int num1, num2, num3;
+
+    printf("Enter number: ");
+    scanf("%d", &num1);
+
+    printf("Enter number: ");
+    scanf("%d", &num2);
+
+    printf("Enter number: ");
+    scanf("%d", &num3);
+
+    int sum = num1 + num2 + num3;
+    printf("sum: %d\n", sum);
+
     return 0;
 }
