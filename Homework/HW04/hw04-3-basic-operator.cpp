@@ -13,21 +13,15 @@
         Answer = 6
 */
 #include <stdio.h>
-
 int main() {
-    int num1, num2, num3;
+     
+     int num1,num2,num3 ;
 
-    printf("Enter number: ");
-    scanf("%d", &num1);
+    printf( "plese enter three number : " ) ;
+    scanf( "%d %d %d ", &num1,&num2,&num3 ) ;
 
-    printf("Enter number: ");
-    scanf("%d", &num2);
+    int sum = num1 + num2 + num3 ;
+    printf("Answer = %d ",sum );
 
-    printf("Enter number: ");
-    scanf("%d", &num3);
-
-    int sum = num1 + num2 + num3;
-    printf("sum: %d\n", sum);
-
-    return 0;
+    return 0 ;
 }
